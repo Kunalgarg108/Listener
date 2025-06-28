@@ -25,7 +25,6 @@ function Display() {
         if (!displayRef.current) return;
         if (isAlbumPage) {
           displayRef.current.style.background = `linear-gradient(${bgColor}, #121212)`;
-
         }
         else{
             displayRef.current.style.backgroundColor = '#101010';

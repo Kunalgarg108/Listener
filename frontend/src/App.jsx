@@ -1,4 +1,4 @@
-import { useContext, useState } from 'react';
+import { use, useContext, useState } from 'react';
 import Sidebar from './componenets/Sidebar';
 import Player from './componenets/Player';
 import Display from './componenets/Display';
@@ -6,6 +6,7 @@ import { PlayerContext } from './context/PlayerContext';
 import Header from './componenets/Header';
 import Login from './componenets/Login';
 import { useEffect } from 'react';
+import { setupAxios } from './utils/axiosSetup';
 function App() {
   const { audioRef, track, songsData, isLooping, isLoggedIn,setIsLoggedIn } = useContext(PlayerContext);
   useEffect(() => {
@@ -13,6 +14,9 @@ function App() {
     if (token) {
       setIsLoggedIn(true);
     }
+  }, []);
+  useEffect(() => {
+    setupAxios(() => setIsLoggedIn(false));
   }, []);
   return (
     <div className="h-screen bg-gray-900">

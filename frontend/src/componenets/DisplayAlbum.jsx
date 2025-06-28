@@ -49,20 +49,20 @@ function DisplayAlbum({ album }) {
         <p className='mr-4'># Title</p>
         <p className='hidden sm:block'>Date Added</p>
         <div className='sm:flex items-center sm:ml-auto lg:ml-0 justify-center text-center'>
-  <FaRegClock className='text-xl' />
-</div>
+          <FaRegClock className='text-xl' />
+        </div>
       </div>
       <hr />
       {
         songsData.filter(song => song.album == album.name).map((song, index) => {
           return (
-            <div onClick={() => playwithId(song._id)} key={index} className='grid grid-cols-3 sm:grid-col-4 mt-2 mb-4 pl-2 hover:bg-gray-800 cursor-pointer'>
+            <div onClick={() => playwithId(song._id)} key={index} className='grid grid-cols-3 sm:grid-col-4 mt-2 mb-4 pl-2 cursor-pointer hover:scale-[1.02] transition-transform duration-200 ease-in-out'>
               <p className='mr-4 flex gap-3'> <b>{index + 1}</b> <img src={song.image} className='w-10 h-10 rounded' alt="" />
                 {song.name}</p>
               <p className='hidden sm:block'> 5 Days Ago</p>
               <div className='sm:flex items-center sm:ml-auto lg:ml-0 justify-center text-center'>
-  {song.duration}
-</div>
+                {song.duration}
+              </div>
             </div>
           )
         })

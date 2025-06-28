@@ -24,15 +24,12 @@ function Premium() {
   return (
     <>
         <section className="text-white p-8 rounded-lg max-w-4xl mx-auto my-8 text-center space-y-6">
-      {/* Hero Header */}
       <header>
         <h1 className="text-3xl font-bold mb-2">Try 1 months of Premium for ₹19.00</h1>
         <h2 className="text-lg text-gray-300">Only ₹29/month after. Cancel anytime.</h2>
       </header>
 
-      {/* Offer Timer */}
       <div className="flex items-center justify-center gap-2 text-blue-400">
-        {/* Notification Icon */}
         <LuBellDot className='text-3xl'/>
         <p className="text-sm">Offer ends in 3 days</p>
       </div>
@@ -65,7 +62,6 @@ function Premium() {
     </section>
     <hr />
         <section className=" text-white p-8 rounded-lg max-w-5xl mx-auto my-12">
-      {/* Header */}
       <header className="text-center mb-8">
         <h2 className="text-3xl font-bold mb-2">Experience the difference</h2>
         <h3 className="text-lg text-gray-300">
@@ -73,7 +69,6 @@ function Premium() {
         </h3>
       </header>
 
-      {/* Benefits Table */}
       <div className="overflow-x-auto">
         <table className="w-full text-left border-collapse">
           <thead>
@@ -136,7 +131,6 @@ function Premium() {
           </div>
         ))}
 
-        {/* +6 More Dropdown */}
         <div className="relative group">
           <div className="absolute hidden group-hover:flex flex-wrap gap-3 bg-gray-900 p-4 rounded-lg mt-2 shadow-lg">
           </div>

@@ -6,8 +6,7 @@ import { FaSearch } from "react-icons/fa";
 import { PlayerContext } from '../context/PlayerContext';
 import { useContext } from 'react';
 import { useState } from 'react';
-import { useEffect } from 'react';
-import Profile from './Profile';
+
 
 function Header() {
     const navigate = useNavigate();

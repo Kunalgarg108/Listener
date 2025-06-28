@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { url } from "../context/PlayerContext";
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -45,7 +44,6 @@ function Login({ onLoginSuccess }) {
 
       if (res.data.success) {
         toast.success("Signed in successfully!");
-        // Save token to localStorage/sessionStorage if needed
         localStorage.setItem("token", res.data.token);
         onLoginSuccess?.();
       }

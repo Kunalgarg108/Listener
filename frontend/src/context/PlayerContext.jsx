@@ -4,7 +4,6 @@ import { jwtDecode } from "jwt-decode";
 
 export const PlayerContext = createContext();
 export const url = 'http://localhost:4000';
-
 export const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();
@@ -21,13 +20,6 @@ export const PlayerContextProvider = (props) => {
     currentTime: { second: 0, minute: 0 },
     totalTime: { second: 0, minute: 0 },
   });
-
-  // 🎛️ AudioContext & Visualizer Refs
-  const audioContextRef = useRef(null);
-  const analyserRef = useRef(null);
-  const dataArrayRef = useRef(null);
-  const animationIdRef = useRef(null);
-
   const play = () => {
     if (!audioRef.current) return;
     audioRef.current.play();
@@ -195,10 +187,6 @@ export const PlayerContextProvider = (props) => {
     seekSong,
     handleVolumeChange,
     volume,
-    audioContextRef,
-    analyserRef,
-    dataArrayRef,
-    animationIdRef,
     songsData,
     setSongsData,
     albumsData,

@@ -33,7 +33,7 @@ function AllSong() {
          songsData.map((song, index) => {
              return (
                  <div key={index}
-                 onClick={() => playwithId(song._id)} className='grid grid-cols-3 sm:grid-cols-4 mt-2 mb-4 pl-2 hover:bg-gray-800 cursor-pointer'>
+                 onClick={() => playwithId(song._id)} className='grid grid-cols-3 sm:grid-cols-4 mt-2 mb-4 pl-2  cursor-pointer hover:scale-[1.02] transition-transform duration-200 ease-in-out'>
                      <p className='mr-4 flex gap-18 sm:gap-3 w-full sm:w-auto'> <b>{index + 1}</b> <img src={song.image} className='w-10 h-10 rounded shrink-0' alt="" />
                    {song.name}</p>
                    <p className='hidden sm:block'>{song.album }</p>
