@@ -7,19 +7,49 @@
 ---
 
 ## Features
-- **User Authentication:** Login and signup using Firebase (Email & Google Auth)
-- **Routing:** Managed with `react-router-dom` for a smooth user experience
-- **Notifications:** Uses `react-toastify` for toast messages
-- **Mobile Responsive:** Special media queries ensure a smooth experience on mobile devices
+### 🎶 Frontend (User Side)
+- Browse and play songs and albums.
+- Seekbar, volume control, shuffle, and looping.
+- **User authentication** with JWT and email verification.
+- Profile page with user details.
+- History page to view previously played songs.
+- Responsive and clean UI.
+
+### 🛠️ Admin Dashboard
+- Add new songs and albums via form uploads.
+- View and manage listed songs and albums.
+- Upload images and audio files via Cloudinary.
+
+### 📡 Backend
+- Secure authentication using JWT.
+- Password hashing with bcrypt.
+- Email services via Nodemailer.
+- File uploads handled with Multer and stored in Cloudinary.
 
 ---
-## Tech Stack
-- **React (Vite):** Fast and optimized front-end framework
-- **Firebase:** Used for user authentication (Email & Google)
-- **React Router:** Enables navigation and routing
-- **React Icons:** Provides icon support
-- **React Toastify:** Handles toast notifications
-- **Swiper:** Adds smooth carousel functionality
+## 📚 Tech Stack
+
+### 🖥️ Frontend
+- **React** `^19.1.0`
+- **React Router DOM** `^7.6.2`
+- **Tailwind CSS** `^4.1.10`
+- **Axios** `^1.10.0`
+- **React Toastify** `^11.0.5`
+- **React Icons** `^5.5.0`
+- **jwt-decode** `^4.0.0`
+
+### ⚙️ Backend
+- **Node.js** `^18+`
+- **Express** `^5.1.0`
+- **Mongoose** `^8.16.0`
+- **bcryptjs** `^3.0.2`
+- **jsonwebtoken** `^9.0.2`
+- **dotenv** `^16.5.0`
+- **cors** `^2.8.5`
+- **multer** `^2.0.1`
+- **nodemailer** `^7.0.3`
+- **cloudinary** `^2.7.0`
+- **nodemon** `^3.1.10`
 
  ---
  
