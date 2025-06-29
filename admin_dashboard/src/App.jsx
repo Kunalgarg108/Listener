@@ -9,7 +9,7 @@ import ListAlbum from './pages/ListAlbum'
 import Sidebar from './components/Sidebar'
 import Navbar from './components/Navbar'
 
-export const url='https://listener-backend.onrender.com'
+export const url='https://localhost:4000'
 function App() {
 
   return (
