@@ -30,7 +30,7 @@
 
 ## Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <div style="text-align: center;">
+  <div style="text-align: center;width:100%;">
     <img src="images/image1.png" width="70%">
   </div>
   <img src="images/image9.png" width="45%">
