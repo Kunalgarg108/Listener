@@ -30,16 +30,15 @@
 
 ## Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image2.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image1.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image3.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image4.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image5.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image6.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image7.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image8.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image9.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image10.png" width="45%">
+  <img src="images/image9.png" width="45%">
+  <img src="images/image8.png" width="45%">
+  <img src="images/image7.png" width="45%">
+  <img src="images/image6.png" width="45%">
+  <img src="images/image5.png" width="45%">
+  <img src="images/image4.png" width="45%">
+  <img src="images/image3.png" width="45%">
+  <img src="images/image2.png" width="45%">
+  <img src="images/image1.png" width="70%">
 </div>
 
 ---
