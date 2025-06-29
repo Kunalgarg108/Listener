@@ -3,7 +3,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode"; 
 
 export const PlayerContext = createContext();
-export const url = 'https://localhost:4000';
+export const url = 'https://listener-teal.vercel.app/';
 export const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();
