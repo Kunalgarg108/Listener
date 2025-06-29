@@ -30,6 +30,9 @@
 
 ## Screenshots
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <div style="text-align: center;">
+    <img src="images/image1.png" width="70%">
+  </div>
   <img src="images/image9.png" width="45%">
   <img src="images/image8.png" width="45%">
   <img src="images/image7.png" width="45%">
@@ -38,7 +41,6 @@
   <img src="images/image4.png" width="45%">
   <img src="images/image3.png" width="45%">
   <img src="images/image2.png" width="45%">
-  <img src="images/image1.png" width="70%">
 </div>
 
 ---
