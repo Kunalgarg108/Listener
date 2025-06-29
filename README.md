@@ -2,7 +2,7 @@
 ---
 ## Overview
 
-### **Listener** is a full-featured music streaming web application inspired by Spotify. Built using the **MERN** stack, it offers both a user-facing music player and an admin dashboard for managing songs and albums. The project supports secure authentication, music uploads, album management, and a seamless listening experience.
+#### **Listener** is a full-featured music streaming web application inspired by Spotify. Built using the **MERN** stack, it offers both a user-facing music player and an admin dashboard for managing songs and albums. The project supports secure authentication, music uploads, album management, and a seamless listening experience.
 
 ---
 
