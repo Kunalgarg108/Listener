@@ -1,8 +1,8 @@
-﻿# Hype-Haven-Clothing
+﻿# 🎵 Listener (MERN Stack)
 ---
 ## Overview
 
-### It is an e-commerce application built with **React (Vite)**. It provides a seamless shopping experience with user authentication using **Firebase** (email and Google authentication). The application is styled with **Swiper** for smooth carousels and uses **React Toastify** for notifications.
+### **Listener** is a full-featured music streaming web application inspired by Spotify. Built using the **MERN** stack, it offers both a user-facing music player and an admin dashboard for managing songs and albums. The project supports secure authentication, music uploads, album management, and a seamless listening experience.
 
 ---
 
