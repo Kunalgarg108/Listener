@@ -6,7 +6,7 @@
 
 ---
 
-## Features
+## ✨ Features
 ### 🎶 Frontend (User Side)
 - Browse and play songs and albums.
 - Seekbar, volume control, shuffle, and looping.
@@ -25,6 +25,22 @@
 - Password hashing with bcrypt.
 - Email services via Nodemailer.
 - File uploads handled with Multer and stored in Cloudinary.
+
+---
+
+## Screenshots
+<div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image2.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image1.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image3.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image4.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image5.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image6.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image7.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image8.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image9.png" width="45%">
+  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image10.png" width="45%">
+</div>
 
 ---
 ## 📚 Tech Stack
@@ -56,8 +72,8 @@
 ##  Installation Guide 
 ### 1️⃣ Clone the Repository  
 ```sh
-git clone https://github.com/Kunalgarg108/Hype-Haven-Clothing.git
-cd Hype-Haven-Clothing
+git clone https://github.com/Kunalgarg108/Listener.git
+cd Listener
 ```
 
 ### 2️⃣ Install Dependencies  
@@ -90,21 +106,6 @@ VITE_FIREBASE_MEASUREMENT_ID=your-measurement-id
 npm run dev
 ```
 
----
-
-## Screenshots
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image2.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image1.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image3.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image4.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image5.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image6.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image7.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image8.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image9.png" width="45%">
-  <img src="https://raw.githubusercontent.com/Kunalgarg108/Hype-Haven-Clothing/main/public/image10.png" width="45%">
-</div>
 
 ---
 ## Folder Structure
