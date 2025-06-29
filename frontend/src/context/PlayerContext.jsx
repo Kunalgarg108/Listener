@@ -3,7 +3,7 @@ import axios from "axios";
 import { jwtDecode } from "jwt-decode"; 
 
 export const PlayerContext = createContext();
-export const url = 'https://listener-backend.vercel.app';
+export const url = import.meta.env.VITE_API_URL || 'http://localhost:4000';
 export const PlayerContextProvider = (props) => {
   const audioRef = useRef();
   const seekBg = useRef();

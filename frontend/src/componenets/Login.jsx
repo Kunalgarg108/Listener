@@ -66,7 +66,7 @@ function Login({ onLoginSuccess }) {
       });
 
       if (res.data.success) {
-        toast.success("Account created! Please log in.");
+        toast.success("Account created! Please Verify and Sign In.");
         setIsSignUp(false);
       }
     } catch (error) {
